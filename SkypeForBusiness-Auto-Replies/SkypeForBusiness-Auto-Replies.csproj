@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SkypeForBusiness_Auto_Replies</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Lync.Model">
+      <HintPath>..\..\..\LyncSDK\Assemblies\Desktop\Microsoft.Lync.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
